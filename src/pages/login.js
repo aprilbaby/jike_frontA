@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Button, Grid, Typography } from '@material-ui/core';
 import { TextValidator, ValidatorForm } from 'react-material-ui-form-validator';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/styles';
 import withLayout from '../lib/withLayout';
 import restClient from '../lib/restClient';
 
