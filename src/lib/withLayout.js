@@ -34,7 +34,7 @@ const theme = createMuiTheme({
   }
 });
 
-function withRoot(Component) {
+function withRoot(Component) { //将老师的withRoot改成了withLayout
   function App(props) {
     return (
       <MuiThemeProvider theme={theme}>
